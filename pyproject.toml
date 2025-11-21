@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Python base template"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "markdown-include-variants>=0.0.5",
+    "mdx-include>=1.4.2",
+    "mkdocs>=1.6.1",
+    "mkdocs-material[imaging]>=9.7.0",
+]
 
 [tool.setuptools]
 packages = ["app"]

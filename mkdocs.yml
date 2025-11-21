@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Wiki
 site_url: https://wiki.charleybyrne.com
 plugins:
   # Material for MkDocs
@@ -30,16 +30,16 @@ markdown_extensions:
   # pymdownx blocks
   pymdownx.blocks.admonition:
     types:
-    - note
-    - attention
-    - caution
-    - danger
-    - error
-    - tip
-    - hint
-    - warning
-    # Custom types
-    - info
+      - note
+      - attention
+      - caution
+      - danger
+      - error
+      - tip
+      - hint
+      - warning
+      # Custom types
+      - info
   pymdownx.blocks.details:
   pymdownx.blocks.tab:
     alternate_style: True
