@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+echo "Setting up repo template"
+# https://docs.astral.sh/uv/concepts/projects/dependencies/
+uv sync
+uv run pre-commit install -t pre-commit
+uv run pre-commit install -t pre-push
